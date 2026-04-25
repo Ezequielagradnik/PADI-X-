@@ -22,7 +22,6 @@ export default function App() {
         <Universities />
         <HowItWorks />
         <Dashboard3D />
-        <CourseCarousels />
         <Pricing />
         <Teachers />
         <FinalCTA />
