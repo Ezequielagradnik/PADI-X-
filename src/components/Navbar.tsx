@@ -20,7 +20,7 @@ export function Navbar() {
         scrolled ? 'bg-black/75 backdrop-blur-2xl border-b border-white/[0.06]' : ''
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
 
         {/* ── Logo — full PADI X wordmark ── */}
         <a
@@ -29,7 +29,7 @@ export function Navbar() {
           className="flex items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#CC3366] rounded-lg group"
         >
           <div className="transition-transform duration-200 group-hover:scale-[1.03]">
-            <img src="/image.png" alt="PADI X" style={{ height: 130, width: 'auto' }} />
+            <img src="/image.png" alt="PADI X" style={{ height: 110, width: 'auto' }} />
           </div>
         </a>
 
